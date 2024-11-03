@@ -10,7 +10,7 @@ for (i in 1:nrow(matrix_data)) {
     }
     cat("row sum", i, ":", row_sum, "\n")
 }
-
+#another loop
 for (j in 1:ncol(matrix_data)) {
     col_sum <- 0
     for (i in 1:nrow(matrix_data)) {
