@@ -20,7 +20,7 @@ tryCatch({
   m <- matrix(v, nrow = r, byrow = TRUE)
   
   cat("\nMatrix:\n"); print(m)
-  
+  #maxmin
   mx <- max(m)
   cm <- apply(m, 2, min)   
   rs <- t(apply(m, 1, sort)) 
