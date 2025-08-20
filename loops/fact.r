@@ -1,6 +1,4 @@
-#Use a while loop to calculate and print the factorial of a user-entered number.
-
-num <- as.integer(readline("Enter a positive integer to calculate its factorial: "))
+num <- as.integer(readline("enter a positive int to calc its fact: "))
 fact <- 1
 i <- 1
 while (i <= num) {
