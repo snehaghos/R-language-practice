@@ -1,10 +1,7 @@
 #10. Write an R program to compute the monthly gas bill using the rules:
 #Gas consumed (therms) = (Current Reading − Previous Reading) × 1.375
 #Charges:
-#≤ 120 therms → Rs.6.75 per therm
-#> 120 & ≤225 therms → Rs.8.75 per therm
-#> 225 therms → Rs.11.00 per therm
-#Add Rs.125 meter rent to the bill.
+
 
 curr<-as.integer(readline("Enter current reading: "))
 prev<-as.integer(readline("Enter previous reading: "))
