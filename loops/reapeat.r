@@ -1,11 +1,7 @@
 #write a song using repeat loop 
 lns <- c(
-  "Twinkle, twinkle, little star,",
-  "How I wonder what you are!",
-  "Up above the world so high,",
-  "Like a diamond in the sky.",
-  "Twinkle, twinkle, little star,",
-  "How I wonder what you are!"
+   "Levitating - Dua Lipa",
+  "If you wanna run away with me, I know a galaxy"
 )
 
 i <- 1
