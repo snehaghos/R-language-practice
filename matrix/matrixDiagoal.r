@@ -2,3 +2,4 @@
 M <- matrix(1:16, nrow=4)
 diagonal_elements <- diag(M)
 print(diagonal_elements)
+# Output: [1]  1  6 11 16
