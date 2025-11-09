@@ -22,6 +22,7 @@ count_characters <- function(input_string) {
   cat("Alphabets: ", alphabets, "\n")
   cat("Digits: ", digits, "\n")
   cat("Special Characters: ", special, "\n")
+  
 }
 
 input_string <- readline("Enter a string:")
