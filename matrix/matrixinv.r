@@ -14,7 +14,7 @@ tryCatch({
   if (length(vals) < r * c) stop("Not enough numbers provided")
   m <- matrix(vals, nrow = r, byrow = TRUE)
   cat("\nMatrix:\n"); print(m)
-  inv <- tryCatch(solve(m), error = function(e) e)
+  inv <- tryCatch(solve(m), error = function(e) e) 
   if (inherits(inv, "error")) stop("Matrix is singular or not invertible")
   cat("\nInverse:\n"); print(inv)
 }, error = function(e) {
