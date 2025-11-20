@@ -18,3 +18,5 @@ for (j in 1:ncol(matrix_data)) {
     }
     cat("column sum", j, ":", col_sum, "\n")
 }
+
+#martix sum using built in function
