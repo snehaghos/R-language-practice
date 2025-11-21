@@ -20,3 +20,5 @@ tryCatch({
 }, error = function(e) {
   cat("Error:", e$message, "\n")
 })
+
+#matrix sum using built in function. it gives same result as above nested loop
