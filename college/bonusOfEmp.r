@@ -29,7 +29,7 @@ festival_bonus <- function(designation, basic_pay) {
 
 designation <- readline(prompt = "Enter Designation (Manager/Officer/Other): ")
 basic_pay <- as.numeric(readline(prompt = "Enter Basic Pay: "))
-
+#bonus calc
 bonus <- festival_bonus(designation, basic_pay)
 
 cat("Festival Bonus for", designation, "with Basic Pay", basic_pay, "is:", bonus, "\n")
