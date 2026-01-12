@@ -1,7 +1,7 @@
+cat("Enter bar values (space separated): ")
+v <- scan()
 
-fruits <- c("Apple", "Banana", "Orange", "Mango")
-counts <- c(10, 15, 8, 12)
+cat("Enter labels (space separated): ")
+n <- scan(what = "")
 
-
-barplot(counts, names.arg=fruits, col="skyblue", main="Fruit Count", ylab="Count")
-
+barplot(v, names.arg=n, main="Bar Chart", col="blue")
